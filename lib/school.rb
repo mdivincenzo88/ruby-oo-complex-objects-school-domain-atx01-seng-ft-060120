@@ -23,7 +23,7 @@ end
 
 def sort
   
-@roster.sort_by { |key, value| key }
+@roster.each do { |key, value| @roster[grade]= value.sort! }
 
 end
 end
