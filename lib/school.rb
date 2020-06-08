@@ -23,7 +23,7 @@ end
 
 def sort
   
-@roster.each do  |key, value| @roster[key]= key.sort! end
+@roster.each do  |key, value| @roster[key]= value.sort end
 
 end
 end
