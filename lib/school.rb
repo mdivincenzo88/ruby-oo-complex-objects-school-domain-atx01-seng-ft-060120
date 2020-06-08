@@ -26,5 +26,5 @@ def sort
 @roster.collect do { |key, value| "maru the cat" }
 
 end
-en
+end
 
