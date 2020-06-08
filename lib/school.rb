@@ -26,5 +26,5 @@ def sort
 @roster.sort_by { |key, value| key }
 
 end
-en
+end
 
