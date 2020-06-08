@@ -23,7 +23,8 @@ end
 
 def sort
   
-@roster.select { |key, value|  key == 10}
+@roster.sort_by { |key, value| key }
+
 end
-end
+en
 
