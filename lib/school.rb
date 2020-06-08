@@ -23,7 +23,7 @@ end
 
 def sort
   
-@roster.collect { |key, value| "maru the cat" }
+@roster.select { |key, value|  key == 10}
 end
 end
 
