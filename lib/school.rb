@@ -23,7 +23,7 @@ end
 
 def sort
   
-@roster.collect do { |key, value| "maru the cat" }
+@roster.collect { |key, value| "maru the cat" }
 end
 end
 
